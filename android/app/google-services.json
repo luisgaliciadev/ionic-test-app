@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "270616985759",
+    "project_id": "ionictest-91647",
+    "storage_bucket": "ionictest-91647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270616985759:android:43316e899d5cb3bd79a2aa",
+        "android_client_info": {
+          "package_name": "com.luisgaliciadev.ionictest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270616985759-lod5ahbp2qcsk7pp567ms5de5pir4pco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq8hY3NbHCh0FJyKY4vGDwSBEtTC5FaYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270616985759-lod5ahbp2qcsk7pp567ms5de5pir4pco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

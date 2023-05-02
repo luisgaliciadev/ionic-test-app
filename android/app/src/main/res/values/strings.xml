@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ionicTests</string>
+    <string name="title_activity_main">ionicTests</string>
+    <string name="package_name">com.luisgaliciadev.ionictest</string>
+    <string name="custom_url_scheme">com.luisgaliciadev.ionictest</string>
+</resources>
