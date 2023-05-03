@@ -12,7 +12,7 @@
   </ion-header>
 
   <ion-button (click)="start()" expand="block" fill="clear" shape="round">
-    Scan qr
+    Scan QR
   </ion-button>
   <div *ngIf="!isScanning">scanData: {{scanData | json}}</div>
   <div *ngIf="isScanning" class="scan-box"></div>
