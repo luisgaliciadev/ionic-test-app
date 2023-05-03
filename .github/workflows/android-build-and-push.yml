@@ -26,7 +26,7 @@ jobs:
       run: gradle build
 
     - name: build release 
-      run: gradle assembleDebug
+      run: gradle assemble
     - name: list files
       run: ls -lrt app/build/outputs/apk/release
       
