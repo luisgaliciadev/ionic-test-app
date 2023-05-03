@@ -20,10 +20,10 @@ jobs:
       run: echo "y" | sudo /usr/local/lib/android/sdk/tools/bin/sdkmanager --install "ndk;20.0.5594570" --sdk_root=${ANDROID_SDK_ROOT}
       
     - name: Build with Gradle
-      run: gradlew build
+      run: gradle build
 
     - name: build release 
-      run: ./gradlew assembleRelease
+      run: ./gradle assembleRelease
     - name: list files
       run: ls -lrt app/build/outputs/apk/release
       
