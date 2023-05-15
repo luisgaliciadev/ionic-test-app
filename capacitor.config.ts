@@ -5,10 +5,10 @@ const config: CapacitorConfig = {
   appName: 'ionicTests',
   webDir: 'www',
   bundledWebRuntime: false,
-  server: {
-    url: 'http://192.168.1.68:8101',
-    cleartext: true,
-  },
+  // server: {
+  //   url: 'http://192.168.1.68:8100',
+  //   cleartext: true,
+  // },
 };
 
 export default config;

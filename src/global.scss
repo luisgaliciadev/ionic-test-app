@@ -29,3 +29,7 @@ body.scanner-active {
   --background: transparent;
   --ion-background-color: transparent;
 }
+
+.md ion-content {
+  --background: none !important;
+}

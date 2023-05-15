@@ -13,7 +13,7 @@ import {
 export class Tab1Page {
   credentials: any;
   constructor() {
-    this.performBiometricVerificatin();
+    // this.performBiometricVerificatin();
   }
 
   async performBiometricVerificatin() {

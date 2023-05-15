@@ -8,11 +8,17 @@ import { BarcodeScanner } from '@capacitor-community/barcode-scanner';
 })
 export class Tab2Page {
   isScanning = false;
-  scanData: any = {
-    data: null,
-  };
+  scanData: any = null;
   constructor() {
     this.checkPer();
+  }
+
+  ionViewDidEnter() {
+    this.scanData = null;
+  }
+
+  ionViewWillLeave() {
+    this.stopScan();
   }
 
   checkPer = async () => {
@@ -35,11 +41,16 @@ export class Tab2Page {
     // if the result has content
     if (result.hasContent) {
       console.log(result.content); // log the raw scanned content
-      this.scanData = {
-        data: result.content,
-      };
+      this.scanData = result.content;
     }
     document.querySelector('body')!.classList.remove('scanner-active');
     this.isScanning = false;
+  }
+
+  async stopScan() {
+    document.querySelector('body')!.classList.remove('scanner-active');
+    this.isScanning = false;
+    BarcodeScanner.showBackground();
+    BarcodeScanner.stopScan();
   }
 }
